@@ -5,31 +5,66 @@
 <!DOCTYPE html>
 <!-- Тег html - контейнер для содержимого страницы. -->
 <html lang="en">
-
-<!-- Тег head -->  
-<head>
+  <!-- Тег head -->
+  <head>
     <!-- Здесь указываются метаданные -->
     <!-- Метатеги (метаданные) – служебные поля html-страницы сайта,
          используемые поисковыми системами для анализа содержимого страницы
          и определения ее релевантноститой или иной фразе. Содержимое метатегов
          оказывает существенное влияние при продвижении или оптимизации сайта. -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
 
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- Подключение файла css со стилями, способ подключения локального файла -->
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css" />
     <!-- Подключение файла css со стилями, способ подключения публичного файла с интернета -->
-    <link href="//cdn.muicss.com/mui-0.10.3/css/mui.min.css" rel="stylesheet" type="text/css" />
-
+    <link
+      href="//cdn.muicss.com/mui-0.10.3/css/mui.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <!-- Подключение js файла, способ подключения публичного файла с интернета -->
     <script src="//cdn.muicss.com/mui-0.10.3/js/mui.min.js"></script>
 
     <!-- title - заголовок страницы, который также играет важную роль в SEO -->
-    <title>Tags</title></head>
+    <title>Tags</title>
+  </head>
 
-    <!-- Тег body -->
-<body>
+  <!-- Тег body -->
+  <body>
+    <header></header>
+    <main>
+      <a
+        style="color: red; font-size: 40px"
+        id="link"
+        class="link"
+        href="https://www.google.ru/"
+        >google</a
+      >
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+      </ul>
+      <img
+        style="width: 400px; height: 400px"
+        src="https://i.ytimg.com/vi/1cntyZMzwJY/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgTig_MA8=&amp;rs=AOn4CLDoVxEK5MEnbfZ2Uk4eD0Zm-m6jTw"
+      />
+      <div class="">
+        <h1 class="title">Заголовок</h1>
+      </div>
+      <a class="waves-effect waves-light btn">button</a>
+    </main>
+    <footer></footer>
     <!-- Здесь находится вся желаемая верстка, все что мы видим на сайте, с этой
          страничкой мы и будем работать -->
-</body>
+  </body>
 </html>
